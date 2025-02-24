@@ -1,0 +1,11 @@
+Ref: Tutorialspoint
+
+CDN Links: By inserting CDN links in our HTML document, we can use Tailwind's utility classes effectively.
+<link href= "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+or
+<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+
+Install Tailwind CSS: By installing Tailwind CSS via npm, we can use Tailwind CSS's utility classes effectively.
+https://www.tutorialspoint.com/tailwind_css/tailwind_css_installation.htm
+https://tailwindcss.com/docs/installation/tailwind-cli
