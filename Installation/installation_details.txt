@@ -3,9 +3,19 @@ Ref: Tutorialspoint
 CDN Links: By inserting CDN links in our HTML document, we can use Tailwind's utility classes effectively.
 <link href= "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 or
-<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-
+<script src="https://cdn.tailwindcss.com"></script>
 
 Install Tailwind CSS: By installing Tailwind CSS via npm, we can use Tailwind CSS's utility classes effectively.
 https://www.tutorialspoint.com/tailwind_css/tailwind_css_installation.htm
 https://tailwindcss.com/docs/installation/tailwind-cli
+
+
+
+Tailwind CSS supports custom CSS at-rules like @tailwind, @apply, and @config, but these at-rules can trigger warnings or errors in many editors where they are not recognizable.
+To solve those warnings and errors we will recommend you to install plugins on your IDE or editor so that will support the PostCSS instead of regular CSS.
+
+Extensions in VS Code:
+Tailwind CSS IntelliSense
+Tailwind Fold
+Tailwind Documentation
+Tailwind Config Viewer
